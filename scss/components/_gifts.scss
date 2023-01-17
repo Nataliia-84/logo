@@ -1,0 +1,56 @@
+.gifts{
+
+&__container{
+    padding-top: 96px;
+    padding-bottom: 120px;
+}
+
+&__title{
+    margin-bottom: 21px;
+    font-size: 32px;
+    line-height: 1.205;
+    text-align: center; 
+}
+
+&__discr{
+    margin-bottom: 57px;
+    font-size: 18px;
+    line-height: 1.333;
+    text-align: center;
+}
+
+&__list{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+}
+.gifts__card{
+ background-color: var(--bg-color);
+
+&:hover{
+    background-color: var(--white-color);
+    filter: drop-shadow(10px 10px 15px rgba(0, 0, 0, 0.05));
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) ;
+}
+ &--content{
+    padding: 24px;
+   
+
+}
+&--discr{
+    margin-bottom: 72px;
+    font-size: 20px;
+    line-height: 1.25;
+
+}
+
+&--link{
+    font-size: 14px;
+    line-height: 1.357;
+    color:var(--black-color);
+}
+}
+

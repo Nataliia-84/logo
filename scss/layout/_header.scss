@@ -1,0 +1,15 @@
+.header{
+    
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: var(--white-color);
+    outline: 1px solid teal;
+
+&__container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+}
+
+

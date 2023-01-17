@@ -1,0 +1,32 @@
+.footer{
+    background-color: var(--bg-section-color);
+
+&__container{
+    padding-top: 115px;
+    padding-bottom:35px ;}
+
+&__content{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 90px;
+// &::after{
+//     content:'';
+//     display: block;
+//     width: 1000px;
+//     border: 1px solid #000000;
+// }    
+}
+&__list{
+    display: flex;
+
+
+}
+
+&__item + &__item{
+    margin-left: 88px;
+}
+
+
+    
+}

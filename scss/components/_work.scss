@@ -1,0 +1,25 @@
+.work{
+    
+    background-color: var(--bg-section-color);
+
+&__container{
+    display: flex;
+    
+}
+&__content{
+    padding: 164px 166px 104px 112px;
+}
+
+&__title{
+    margin-bottom: 23px;
+    font-size: 32px;
+    line-height: 1.406;
+   
+    }
+&__discr{
+    margin-bottom: 63px;
+    font-size: 20px;
+    line-height: 1.406;
+
+}
+}

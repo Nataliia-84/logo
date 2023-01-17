@@ -1,0 +1,15 @@
+
+.logo{
+font-family: Homemade Apple, sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 2.166;
+color:var(--black-color);
+
+&__footer{
+    margin-right: 150px;
+    margin-left: 150px;
+    color:var(--brand-color);
+}
+}

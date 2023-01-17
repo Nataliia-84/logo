@@ -1,0 +1,22 @@
+.started{
+    background-color: var(--brand-color);
+
+&__container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 81px;
+    padding-bottom: 69px;
+}    
+
+&__heading{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+&__title{
+    font-size: 32px;
+    line-height: 1.406;
+
+}
+}

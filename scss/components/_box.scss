@@ -1,0 +1,31 @@
+.box{
+    display: flex;
+    gap:30px;
+
+&__item{
+    padding: 48px;
+}
+&__item:hover{
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.05);
+    transition: box-shadow 250ms  ;
+}    
+
+&__title{
+    margin-bottom: 50px;
+    font-size: 24px;
+    line-height: 1.416;
+    
+
+}
+
+&__discr{
+    margin-bottom: 16px;
+    font-size: 18px;
+    line-height: 1.388;
+
+}
+
+&__link{
+    color: var(--text-color);
+}
+}

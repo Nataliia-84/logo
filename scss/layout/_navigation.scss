@@ -1,0 +1,33 @@
+.navigation{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-grow: 1;
+    
+    &__list{
+        
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
+    font-size: 18px;
+    line-height: 1.277;
+    
+}
+&__item + &__item {
+    margin-left: 31px;
+
+}
+
+&__link{
+    padding-top: 20.37px;
+    padding-bottom: 20.37px;
+
+     color:var(--text-color) ;
+
+}
+}
+
+
+
+
